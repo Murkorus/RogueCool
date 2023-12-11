@@ -4,15 +4,20 @@ using UnityEngine;
 
 public class MapMaker : MonoBehaviour
 {
-    // Start is called before the first frame update
+
+    [SerializeField] List<GameObject> startPoints;
+    [SerializeField] List<GameObject> points;
+    [SerializeField] List<GameObject> bossPoints;
+
+    [SerializeField] List<GameObject> roomPrefabs;
+    [SerializeField] GameObject startRoom;
+    [SerializeField] GameObject bossRoom;
+
+
+    int numberOfDoors;
     void Start()
     {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
+  

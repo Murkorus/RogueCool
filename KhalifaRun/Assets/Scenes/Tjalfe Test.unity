@@ -989,6 +989,27 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2398ea0505a21bc4fba408d50c318270, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startPoints:
+  - {fileID: 1000418883}
+  - {fileID: 621223948}
+  - {fileID: 374384353}
+  - {fileID: 668916893}
+  - {fileID: 1046363028}
+  points:
+  - {fileID: 506851654}
+  - {fileID: 1016373691}
+  - {fileID: 438319335}
+  - {fileID: 1339989585}
+  - {fileID: 375823531}
+  - {fileID: 374737040}
+  - {fileID: 533285961}
+  - {fileID: 590305751}
+  - {fileID: 281157207}
+  bossPoints: []
+  roomPrefabs:
+  - {fileID: 3291619139899559796, guid: fc066fbc4d8617042938a24c71f7d602, type: 3}
+  startRoom: {fileID: 3798640918316879563, guid: 96df40c6905265149a6c285960ee76db, type: 3}
+  bossRoom: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
