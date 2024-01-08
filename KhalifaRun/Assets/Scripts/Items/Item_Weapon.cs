@@ -26,7 +26,7 @@ public class Item_Weapon : MonoBehaviour
     public void UpdateWeapon()
     {
         gameObject.name = "item_" + Weapon.weaponName;
-        switch (Weapon.TypeWeapon )
+        switch (Weapon.TypeWeapon)
         {
         case Weapon_template.Type.Gun:
             gameObject.GetComponent<SpriteRenderer>().sprite = Weapon.Gun_sprite;

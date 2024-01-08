@@ -10,14 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b6953019ed55bd947b71ddf4347f37c5, type: 3}
-  m_Name: Ruler
+  m_Name: Lommellygte
   m_EditorClassIdentifier: 
-  weaponName: Ruler
+  weaponName: Lommelygte
   TypeWeapon: 0
-  damage: 1
+  damage: 2
+  Melee_Sprite: {fileID: 21300000, guid: 74fc5105ffc733241981728711e58ff0, type: 3}
   attackSpeed: 2
   windup: 1
-  Melee_Sprite: {fileID: 926329494, guid: 1748f39a035ed5f4aa516c6cf66c2f10, type: 3}
+  Weight: 3
   ShootSpeed: 0
   Ammo: 0
   reloadespeed: 0
