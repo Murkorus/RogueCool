@@ -50,9 +50,9 @@ public class MapMaker : MonoBehaviour
 
         int whichBossPoint =Random.Range(0,bossPoints.Count);
         
-        roomList.Add(Instantiate(bossRoom, startPoints[whichBossPoint].transform.position, Quaternion.identity));
+        roomList.Add(Instantiate(bossRoom, bossPoints[whichBossPoint].transform.position, Quaternion.identity));
         RoomNumber++;
-        roomList[RoomNumber].transform.SetParent(startPoints[whichStartPoint].transform);
+        roomList[RoomNumber].transform.SetParent(bossPoints[whichBossPoint].transform);
         
 
         for (int i = 0; bossPoints.Count > i; i++)
