@@ -20,9 +20,6 @@ public class Item_Weapon : MonoBehaviour
         {
             UpdateWeapon();
         }
-        else if (Weapon == null)
-        {
-        }
     }
 
     // ReSharper disable Unity.PerformanceAnalysis
