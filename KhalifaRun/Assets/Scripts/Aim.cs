@@ -18,12 +18,10 @@ public class Aim : MonoBehaviour
 
         if(Zrotation >=90 && Zrotation <= 270)
         {
-            player.GetComponent<SpriteRenderer>().flipX = true; 
             gameObject.transform.localScale =  new Vector3(1,-1,1); 
         }
         else
         {
-            player.GetComponent<SpriteRenderer>().flipX = false; 
             gameObject.transform.localScale =  new Vector3(1,1,1); 
         }
 
