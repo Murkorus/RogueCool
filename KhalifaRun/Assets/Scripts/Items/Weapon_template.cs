@@ -11,11 +11,13 @@ public class Weapon_template : ScriptableObject
         Melee,
         Gun
     }
-    public string weaponName;
     public Type TypeWeapon;
+    public string weaponName;
+    public SpecialMove_Template Special;
+    public Vector3 size;
     public int damage;
 
-    public SpecialMove_Template Special;
+
     [Header("Melee")]
     public Sprite Melee_Sprite;
     public int attackSpeed;

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1748f39a035ed5f4aa516c6cf66c2f10
+guid: 967e5402df489324cbc66e3acb6e7b7e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -49,7 +49,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
-  spriteBorder: {x: 12, y: 58, z: 104, w: 8}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -110,22 +110,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Linial_0
+      name: umbrella_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 58
-        width: 12
-        height: 62
+        x: 416
+        y: 386
+        width: 14
+        height: 44
       alignment: 9
-      pivot: {x: 0.514833, y: 0.04352188}
+      pivot: {x: 0.64094764, y: 0.02129364}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca489bd6e02bd7b4999a9ba71620cbe2
-      internalID: 926329494
+      spriteID: 0c4b3ef643806304295ecdf69292f30d
+      internalID: -1500468649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 386
+        width: 42
+        height: 44
+      alignment: 9
+      pivot: {x: 0.54929096, y: 0.019842668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e938ef57c74aad4aabeb5202401620c
+      internalID: 1727112578
       vertices: []
       indices: 
       edges: []
@@ -134,14 +155,15 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Linial_0: 926329494
+      umbrella_0: -1500468649
+      umbrella_1: 1727112578
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

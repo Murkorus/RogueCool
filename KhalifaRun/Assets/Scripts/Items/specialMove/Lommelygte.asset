@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Lommelygte
   m_EditorClassIdentifier: 
   WeaponObject: 1
-  instasiate: {fileID: 0}
+  instasiate: {fileID: 5664619065881341414, guid: 72249de92f28e874fa19d53744b7f084, type: 3}
   newWeaponSize: {x: 0, y: 0, z: 0}

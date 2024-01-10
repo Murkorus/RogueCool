@@ -10,7 +10,9 @@ public class Item_Weapon : MonoBehaviour
     public Weapon_template Weapon;
     void Start()
     {
+        gameObject.name = Weapon.name;
         
+        gameObject.transform.localScale = Weapon.size;
     }
 
     // Update is called once per frame

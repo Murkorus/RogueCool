@@ -10,10 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 47551e2c02c361d42961dff205d1abbf, type: 3}
-  m_Name: Linijal
+  m_Name: Computer
   m_EditorClassIdentifier: 
-  WeaponObject: 0
+  WeaponObject: 3
   instasiate: {fileID: 0}
-  newWeaponSize: {x: 0.5, y: 2, z: 0.5}
-  currentSprite: {fileID: 0}
+  newWeaponSize: {x: 1, y: 1, z: 1}
+  currentSprite: {fileID: -1379805344, guid: cad996daad2e87549a4489e539227423, type: 3}
   newSprite: {fileID: 0}
+  partical: {fileID: 0}

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1748f39a035ed5f4aa516c6cf66c2f10
+guid: cad996daad2e87549a4489e539227423
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -49,7 +49,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
-  spriteBorder: {x: 12, y: 58, z: 104, w: 8}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -110,22 +110,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Linial_0
+      name: Computer_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 58
-        width: 12
-        height: 62
+        x: 482
+        y: 368
+        width: 54
+        height: 50
       alignment: 9
-      pivot: {x: 0.514833, y: 0.04352188}
+      pivot: {x: 0.5357536, y: 0.10419983}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca489bd6e02bd7b4999a9ba71620cbe2
-      internalID: 926329494
+      spriteID: 13eeda8313805294ea81d6c8a2bb0639
+      internalID: -1379805344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Computer_1
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 346
+        width: 66
+        height: 78
+      alignment: 9
+      pivot: {x: 0.22027588, y: 0.09589523}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7c5cb9ef17042f469fc291d3f8387a1
+      internalID: 1564727185
       vertices: []
       indices: 
       edges: []
@@ -134,14 +155,15 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Linial_0: 926329494
+      Computer_0: -1379805344
+      Computer_1: 1564727185
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
