@@ -7,7 +7,7 @@ public class EnemyMovement : MonoBehaviour
     private Stats stats;
     private Stats targetStats;
     public float speed;
-    public Transform target;
+    public GameObject target;
     public float minimumDistance;
     private float timePassed = 0f;
 
@@ -20,7 +20,6 @@ public class EnemyMovement : MonoBehaviour
     private void BastardAttack()
     {
         targetStats.health -= stats.damage;
-        Debug.Log("Attacked");
     }
 
 
@@ -28,9 +27,9 @@ public class EnemyMovement : MonoBehaviour
     {
         if (gameObject.name.Contains("Bastard"))
         {
-            if (Vector2.Distance(transform.position, target.position) > minimumDistance)
+            if (Vector2.Distance(transform.position, target.transform.position) > minimumDistance)
             {
-                transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, target.transform.position, speed * Time.deltaTime);
             }
             else
             {
@@ -44,9 +43,9 @@ public class EnemyMovement : MonoBehaviour
         }
         else if (gameObject.name.Contains("Scared Guy"))
         {
-            if (Vector2.Distance(transform.position, target.position) > minimumDistance)
+            if (Vector2.Distance(transform.position, target.transform.position) > minimumDistance)
             {
-                transform.position = Vector2.MoveTowards(transform.position, target.position, -speed * Time.deltaTime);
+                transform.position = Vector2.MoveTowards(transform.position, target.transform.position, -speed * Time.deltaTime);
             }
             else
             {
