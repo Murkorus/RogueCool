@@ -17,7 +17,7 @@ MonoBehaviour:
   Special: {fileID: 11400000, guid: e7368bc22eb9d5c49bb234ed26f7a08a, type: 2}
   size: {x: 1, y: 1, z: 1}
   damage: 2
-  Melee_Sprite: {fileID: 21300000, guid: 74fc5105ffc733241981728711e58ff0, type: 3}
+  Melee_Sprite: {fileID: 1087121593, guid: 5ebbfe3ab70c13841b703cc96fc1126d, type: 3}
   attackSpeed: 2
   windup: 1
   Weight: 3
