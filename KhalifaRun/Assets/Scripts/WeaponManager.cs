@@ -179,7 +179,7 @@ public class WeaponManager : MonoBehaviour
         weponHolder.transform.localScale = currentWeapon.size;
         
         yield return new WaitForSeconds(0.4f);
-        
+            
         Swapping_weapons = false;
     }
     public void DropWeapon()
