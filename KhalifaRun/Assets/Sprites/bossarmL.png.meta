@@ -113,12 +113,12 @@ TextureImporter:
       name: bossarmL_0
       rect:
         serializedVersion: 2
-        x: 4
-        y: 316
-        width: 48
-        height: 69
+        x: 16
+        y: 344
+        width: 23
+        height: 19
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: bossarmL_1
       rect:
         serializedVersion: 2
-        x: 68
-        y: 316
-        width: 48
-        height: 69
+        x: 84
+        y: 337
+        width: 16
+        height: 23
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -155,12 +155,12 @@ TextureImporter:
       name: bossarmL_2
       rect:
         serializedVersion: 2
-        x: 137
-        y: 316
-        width: 48
-        height: 69
+        x: 138
+        y: 335
+        width: 30
+        height: 47
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -176,12 +176,12 @@ TextureImporter:
       name: bossarmL_3
       rect:
         serializedVersion: 2
-        x: 198
-        y: 316
-        width: 48
-        height: 69
+        x: 202
+        y: 342
+        width: 27
+        height: 37
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: bossarmL_4
       rect:
         serializedVersion: 2
-        x: 262
-        y: 323
-        width: 48
-        height: 69
+        x: 263
+        y: 336
+        width: 34
+        height: 54
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: bossarmL_5
       rect:
         serializedVersion: 2
-        x: 324
-        y: 322
-        width: 48
-        height: 69
+        x: 328
+        y: 328
+        width: 40
+        height: 61
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -239,12 +239,12 @@ TextureImporter:
       name: bossarmL_6
       rect:
         serializedVersion: 2
-        x: 5
-        y: 221
-        width: 48
-        height: 69
+        x: 21
+        y: 248
+        width: 24
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -260,12 +260,12 @@ TextureImporter:
       name: bossarmL_7
       rect:
         serializedVersion: 2
-        x: 64
-        y: 221
-        width: 48
-        height: 69
+        x: 75
+        y: 247
+        width: 31
+        height: 29
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -282,11 +282,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 142
-        y: 225
-        width: 48
-        height: 69
+        y: 244
+        width: 39
+        height: 50
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -307,7 +307,7 @@ TextureImporter:
         width: 48
         height: 69
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -323,12 +323,12 @@ TextureImporter:
       name: bossarmL_10
       rect:
         serializedVersion: 2
-        x: 314
-        y: 234
-        width: 48
-        height: 69
+        x: 329
+        y: 251
+        width: 17
+        height: 26
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

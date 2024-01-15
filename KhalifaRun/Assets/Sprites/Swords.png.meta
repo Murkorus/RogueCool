@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: cd248ffc64250aa41a5b206d9bfe67f6
+guid: 1be62ba7a14c28240ab9517dbe7d51e1
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -110,223 +110,118 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BossarmR_0
+      name: Swords_0
       rect:
         serializedVersion: 2
-        x: 32
-        y: 328
-        width: 40
-        height: 61
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dc319076f2ad37049bc250fdf0ba042c
-      internalID: -321218620
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BossarmR_1
-      rect:
-        serializedVersion: 2
-        x: 103
-        y: 336
-        width: 34
-        height: 54
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0978983b606615e4da6a267810ee2eba
-      internalID: 641334408
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BossarmR_2
-      rect:
-        serializedVersion: 2
-        x: 171
-        y: 342
-        width: 27
-        height: 37
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 774d729f46defc54784637f5938c653d
-      internalID: -745918739
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BossarmR_3
-      rect:
-        serializedVersion: 2
-        x: 232
-        y: 335
-        width: 30
-        height: 47
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: bea29aeb085a1df4c95f844d3f73119f
-      internalID: -1260956241
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BossarmR_4
-      rect:
-        serializedVersion: 2
-        x: 300
-        y: 337
-        width: 16
-        height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5be3ac177e6574a45ad6db9daf23e3e4
-      internalID: -790652987
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BossarmR_5
-      rect:
-        serializedVersion: 2
-        x: 361
-        y: 344
-        width: 23
-        height: 19
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: cd9d70b14eff017449d5e7e460e1ff2d
-      internalID: -1708156286
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BossarmR_6
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 251
+        x: 4
+        y: 43
         width: 17
-        height: 26
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 799206cc9d3ff73459708804b50112cc
-      internalID: -1964585592
+      spriteID: 863c348e4e7cfe34d8c9480a0e8b2368
+      internalID: 1876594717
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BossarmR_7
+      name: Swords_1
       rect:
         serializedVersion: 2
-        x: 131
-        y: 234
-        width: 48
-        height: 69
+        x: 36
+        y: 43
+        width: 17
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 04de59f09c58bed4eb74d33f2f8845ab
-      internalID: 830593085
+      spriteID: 64761119b5a727f49bc57eff66221815
+      internalID: -1703733074
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BossarmR_8
+      name: Swords_2
       rect:
         serializedVersion: 2
-        x: 219
-        y: 244
-        width: 39
-        height: 50
+        x: 1
+        y: 14
+        width: 2
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c6b9a42193b80645834e889857edc60
-      internalID: 1224821574
+      spriteID: b7ff7f226f587b24cbe227130c09ebce
+      internalID: 488457141
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BossarmR_9
+      name: Swords_3
       rect:
         serializedVersion: 2
-        x: 294
-        y: 247
-        width: 31
-        height: 29
+        x: 24
+        y: 14
+        width: 6
+        height: 17
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f90f32b47b8182d4c9951ee61fc78e6c
-      internalID: 984569323
+      spriteID: 495ec785ea49f2f44baf14fb6523e5fb
+      internalID: -1401112632
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BossarmR_10
+      name: Swords_4
       rect:
         serializedVersion: 2
-        x: 355
-        y: 248
-        width: 24
-        height: 29
+        x: 2
+        y: 1
+        width: 3
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca470e3d16ab824b8d60695ed62550f
+      internalID: 247116558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swords_5
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 14
+        width: 2
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,8 +229,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5f9c2409597b2df498e286778967a015
-      internalID: 1090432289
+      spriteID: aff4f818b649a1343a29de768eb41c9f
+      internalID: 512887046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swords_6
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 14
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e51f60fe715210541beac8b8ff987cf6
+      internalID: 1401883203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swords_7
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 14
+        width: 2
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc8d76d1b3813d544ac9c09dc74d288a
+      internalID: 645639114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swords_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8523f19e0af59bb47ae03ddff546aead
+      internalID: 252451852
       vertices: []
       indices: 
       edges: []
@@ -351,17 +309,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BossarmR_0: -321218620
-      BossarmR_1: 641334408
-      BossarmR_10: 1090432289
-      BossarmR_2: -745918739
-      BossarmR_3: -1260956241
-      BossarmR_4: -790652987
-      BossarmR_5: -1708156286
-      BossarmR_6: -1964585592
-      BossarmR_7: 830593085
-      BossarmR_8: 1224821574
-      BossarmR_9: 984569323
+      Swords_0: 1876594717
+      Swords_1: -1703733074
+      Swords_2: 488457141
+      Swords_3: -1401112632
+      Swords_4: 247116558
+      Swords_5: 512887046
+      Swords_6: 1401883203
+      Swords_7: 645639114
+      Swords_8: 252451852
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
