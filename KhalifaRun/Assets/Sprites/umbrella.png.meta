@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 74fc5105ffc733241981728711e58ff0
+guid: 967e5402df489324cbc66e3acb6e7b7e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,13 +43,13 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
-  alignment: 9
-  spritePivot: {x: 0.18849951, y: 0.3442499}
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
-  spriteBorder: {x: 4, y: 9, z: 9, w: 3}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -108,18 +108,62 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: umbrella_0
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 386
+        width: 14
+        height: 44
+      alignment: 9
+      pivot: {x: 0.64094764, y: 0.02129364}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c4b3ef643806304295ecdf69292f30d
+      internalID: -1500468649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: umbrella_1
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 386
+        width: 42
+        height: 44
+      alignment: 9
+      pivot: {x: 0.54929096, y: 0.019842668}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e938ef57c74aad4aabeb5202401620c
+      internalID: 1727112578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      umbrella_0: -1500468649
+      umbrella_1: 1727112578
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

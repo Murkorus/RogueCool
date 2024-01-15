@@ -10,17 +10,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b6953019ed55bd947b71ddf4347f37c5, type: 3}
-  m_Name: Lommellygte
+  m_Name: Computer
   m_EditorClassIdentifier: 
   TypeWeapon: 0
-  weaponName: Lommelygte
-  Special: {fileID: 11400000, guid: e7368bc22eb9d5c49bb234ed26f7a08a, type: 2}
-  size: {x: 1, y: 1, z: 1}
-  damage: 2
-  Melee_Sprite: {fileID: 1087121593, guid: 5ebbfe3ab70c13841b703cc96fc1126d, type: 3}
-  attackSpeed: 2
-  windup: 1
-  Weight: 3
+  weaponName: Computer
+  Special: {fileID: 11400000, guid: 099580a0269899e46bf9b430c79f00ba, type: 2}
+  size: {x: 0.3, y: 0.3, z: 0.3}
+  damage: 1
+  Melee_Sprite: {fileID: 1564727185, guid: cad996daad2e87549a4489e539227423, type: 3}
+  attackSpeed: 3
+  windup: 2
+  Weight: 1
   ShootSpeed: 0
   Ammo: 0
   reloadespeed: 0

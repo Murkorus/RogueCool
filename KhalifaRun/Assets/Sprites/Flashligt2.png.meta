@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1748f39a035ed5f4aa516c6cf66c2f10
+guid: 5ebbfe3ab70c13841b703cc96fc1126d
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -49,7 +49,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 16
-  spriteBorder: {x: 12, y: 58, z: 104, w: 8}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -110,22 +110,43 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Linial_0
+      name: Flashligt2_0
       rect:
         serializedVersion: 2
-        x: 12
-        y: 58
+        x: 1
+        y: 4
         width: 12
-        height: 62
+        height: 23
       alignment: 9
-      pivot: {x: 0.514833, y: 0.04352188}
+      pivot: {x: 0.50000006, y: 0.027557539}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca489bd6e02bd7b4999a9ba71620cbe2
-      internalID: 926329494
+      spriteID: 80eea462015092c438d8ee4a6e06749e
+      internalID: 1087121593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Flashligt2_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 4
+        width: 12
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5, y: 0.031430017}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e76ee1eb530ca49aa1ba63985a6c47
+      internalID: 1851762136
       vertices: []
       indices: 
       edges: []
@@ -134,14 +155,15 @@ TextureImporter:
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 1537655665
+    internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Linial_0: 926329494
+      Flashligt2_0: 1087121593
+      Flashligt2_1: 1851762136
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
