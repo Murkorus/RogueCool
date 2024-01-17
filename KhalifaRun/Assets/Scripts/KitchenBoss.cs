@@ -90,20 +90,21 @@ public class KitchenBoss : MonoBehaviour
 
     public IEnumerator Attack1()
     {
+        yield return new WaitForSeconds(PreparationTimer);
+        
         Anim_armL.Play("Boss_ArmL");
         yield return new WaitForSeconds(0.1f);
         Anim_armR.Play("Boss_ArmR");
-        
-        yield return new WaitForSeconds(PreparationTimer);
-        
+        yield return new WaitForSeconds(0.1f);
         Anim_armL.Play("KnifeLaunch");
         yield return new WaitForSeconds(0.2f);
+        LaunchKnives();
+        
+        SwordsAmount /= 2;
         
         Anim_armR.Play("KnifeLaunchR");
         yield return new WaitForSeconds(0.1f);
-        
         LaunchKnives();
-        
         Anim_armL.Play("IdleL");
         yield return new WaitForSeconds(0.1f);
         Anim_armR.Play("IdleR");

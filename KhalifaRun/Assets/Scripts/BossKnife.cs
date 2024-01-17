@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +7,7 @@ public class BossKnife : MonoBehaviour
 {
        public float bulletLife = 1f;  // Defines how long before the bullet is destroyed
        public float speed = 1f;
-
+       public int damage;
        public GameObject rotateSprite;
        private Vector2 MoveDir;
     
@@ -30,7 +31,14 @@ public class BossKnife : MonoBehaviour
        {
            MoveDir = Dir;
        }
-       
-       
-   }
+
+       private void OnTriggerEnter2D(Collider2D other)
+       {
+           if (other.CompareTag("Player"))
+           {
+               other.GetComponent<HealthScript>().TakingDamage(damage);
+               Destroy(gameObject);
+           }
+       }
+}
 

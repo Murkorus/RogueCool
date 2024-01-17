@@ -35,8 +35,8 @@ public class HealthScript : MonoBehaviour
     {
         for(int i = 0; i< heal; i++)
         {
-            heartContainers[health].GetComponentInChildren<Image>().enabled=true;
             health++;
+            heartContainers[health].GetComponentInChildren<Image>().enabled=true;
         }
     }
 
