@@ -30,11 +30,11 @@ public class Stats : MonoBehaviour
                     health = maxHealth;
                     damage = 5;
                 }
-                if (gameObject.name.Contains("Bastard"))
+                if (gameObject.name.Contains("Roller"))
                 {
-                    maxHealth = 60;
+                    maxHealth = 40;
                     health = maxHealth;
-                    damage = 5;
+                    damage = 4;
                 }
             }
         }
