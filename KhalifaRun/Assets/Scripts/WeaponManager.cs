@@ -89,7 +89,7 @@ public class WeaponManager : MonoBehaviour
         
         if (Vector2.Distance(transform.position, ClosestWeapon().transform.position) <= pickupDistance)
         {
-            if (Input.GetKeyDown(KeyCode.E))
+            if (Input.GetKeyDown(KeyCode.E) && inventory.Count < MaxweaponSlots)
             {
                 GetWeapon(ClosestWeapon().GetComponent<Item_Weapon>().Weapon);
                 Destroy(ClosestWeapon());
