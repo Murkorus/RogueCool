@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+#region OUTDATED CODE - DO NOT USE THIS SCRIPT!
 public class EnemyMovement : MonoBehaviour
 {
     private Stats stats;
@@ -54,3 +55,4 @@ public class EnemyMovement : MonoBehaviour
         }
     }
 }
+#endregion

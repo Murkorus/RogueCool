@@ -1,3 +1,4 @@
+using Pathfinding;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -11,9 +12,13 @@ public class Stats : MonoBehaviour
     public float health = 100;
     public float damage = 5;
     public float speed = 3;
-    
+    public float knockback = 0;
+    public float attackSpeed = 1; // Seconds between each attack
+    private AIPath pathfindingScript;
+
     private void Start()
     {
+        pathfindingScript = GetComponent<AIPath>();
         if (autoStats)
         {
             if (gameObject.tag == "Player")
@@ -29,14 +34,24 @@ public class Stats : MonoBehaviour
                     maxHealth = 60;
                     health = maxHealth;
                     damage = 5;
+                    pathfindingScript.maxSpeed = 4;
+                    knockback = 0.3f;
+                    attackSpeed = 1;
                 }
                 if (gameObject.name.Contains("Roller"))
                 {
                     maxHealth = 40;
                     health = maxHealth;
                     damage = 4;
+                    pathfindingScript.maxSpeed = 5;
+                    knockback = 0.9f;
+                    attackSpeed = 1.3f;
                 }
             }
+        }
+        else if (gameObject.tag == "Enemy")
+        {
+            pathfindingScript.maxSpeed = speed;
         }
     }
 
