@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using FirstGearGames.SmoothCameraShaker;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,6 +9,7 @@ public class HealthScript : MonoBehaviour
 {
     [SerializeField] int health = 6;
     [SerializeField] GameObject[] heartContainers;
+    public GameObject cam;
     private void Update()
     {
         if (Input.GetKeyUp(KeyCode.K))
@@ -31,6 +33,8 @@ public class HealthScript : MonoBehaviour
         {
             health--;
             heartContainers[health].GetComponentInChildren<Image>().enabled = false;
+            print("shake");
+            
         }
 
     }

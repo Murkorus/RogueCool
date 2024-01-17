@@ -572,6 +572,8 @@ MonoBehaviour:
   health: 100
   damage: 5
   speed: 3
+  knockback: 0
+  attackSpeed: 1
 --- !u!61 &562197776
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2410,6 +2412,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bb9473cd34a234e8f012bafe35b19c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 0}
   health: 6
   heartContainers:
   - {fileID: 7522075095763678074}
@@ -3243,6 +3246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bb9473cd34a234e8f012bafe35b19c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  cam: {fileID: 11400000, guid: 6fb5c66542612e1469eb75b9cb910cd3, type: 2}
   health: 6
   heartContainers:
   - {fileID: 7934495205458650181}
