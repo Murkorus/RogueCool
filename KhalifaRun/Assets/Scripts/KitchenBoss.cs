@@ -57,25 +57,25 @@ public class KitchenBoss : MonoBehaviour
             case Feeling.Angry:
                 SwordsAmount = 15;
                 Head.GetComponent<SpriteRenderer>().sprite = Angry;
-                PreparationTimer = 1f;
+                PreparationTimer = 2f;
                 break;
             
             case Feeling.crazy:
                 SwordsAmount = 20;
                 Head.GetComponent<SpriteRenderer>().sprite = Crazy;
-                PreparationTimer = 0.4f;
+                PreparationTimer = 1f;
                 break;
             
             case Feeling.pacient:
                 SwordsAmount = 30;
-                PreparationTimer = 5f;
+                PreparationTimer = 8f;
                 Head.GetComponent<SpriteRenderer>().sprite = Pacient;
                 break;
             
             case Feeling.normal:
                 SwordsAmount = 10;
                 Head.GetComponent<SpriteRenderer>().sprite = Normal;
-                PreparationTimer = 2;
+                PreparationTimer = 4f;
             break;
         }
         PreparationTime();

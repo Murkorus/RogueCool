@@ -18,6 +18,10 @@ public class HealthScript : MonoBehaviour
         {
             GainHearts(1);
         }
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
 
     public void TakingDamage(int Damage)
