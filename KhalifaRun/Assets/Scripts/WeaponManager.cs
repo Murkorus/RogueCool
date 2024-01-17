@@ -13,6 +13,7 @@ public class WeaponManager : MonoBehaviour
     public Transform arms;
     public Transform handsHolder;
     public Camera cam;
+    public WeaponTriggerBox DamageBox;
     
     [Header("Bools")]
     public bool _gotWeapon;
@@ -42,7 +43,7 @@ public class WeaponManager : MonoBehaviour
 
     private void Update()
     {
-        
+    
         close_Weapons = GameObject.FindGameObjectsWithTag("Item_Weapon");
 
         arms.gameObject.SetActive(_gotWeapon);
@@ -138,8 +139,11 @@ public class WeaponManager : MonoBehaviour
                 
                 Debug.Log("PickUpMelee");
             }
-            
+
+            weponHolder.AddComponent<BoxCollider2D>();
+            weponHolder.GetComponent<BoxCollider2D>().isTrigger = true;
             _gotWeapon = true;
+            DamageBox.weapon = currentWeapon;
         }
     public void updateWeapon(Weapon_template weapon)
     {
@@ -157,9 +161,10 @@ public class WeaponManager : MonoBehaviour
             weponHolder.GetComponent<SpriteRenderer>().sprite = weapon.Melee_Sprite;
             weight = currentWeapon.Weight;
             windup = currentWeapon.windup;
-                
+            
             Debug.Log("PickUpMelee");
         }
+        DamageBox.weapon = currentWeapon;
     }
     public IEnumerator SwapWeapons(Weapon_template swap2weapon)
     {
@@ -188,6 +193,7 @@ public class WeaponManager : MonoBehaviour
            {
                 currentWeapon = null;
                _gotWeapon = false;
+               Destroy(weponHolder.GetComponent<BoxCollider2D>());
                return;
            }
            GameObject Instatiatetdrop = Instantiate(ItemDrop, transform.position,quaternion.identity);
@@ -199,6 +205,7 @@ public class WeaponManager : MonoBehaviour
            currentWeapon = inventory[0];
            
            updateWeapon(currentWeapon);
+           
             
         }
     private void PlayerChargeAttack()
@@ -222,11 +229,11 @@ public class WeaponManager : MonoBehaviour
             Vector3 attackdir = (mousepos - transform.position).normalized;
             
             handsHolder.transform.DOLocalRotate(new Vector3(pose_Handsholder.x,pose_Handsholder.y ,pose_Handsholder.z -weight * 10),0.4f).SetEase(Ease.OutBack);
-            
+            DamageBox.GetComponent<Collider2D>().enabled = true;
             yield return new WaitForSeconds(0.4f);
             
             handsHolder.transform.DOLocalRotate(new Vector3(pose_Handsholder.x,pose_Handsholder.y ,pose_Handsholder.z),0.4f).SetEase(Ease.OutCubic);
-            
+            DamageBox.GetComponent<Collider2D>().enabled = false;
             weponHolder.transform.DOScale(currentWeapon.size,0.4f).SetEase(Ease.OutCubic);
             
             yield return new WaitForSeconds(0.4f);

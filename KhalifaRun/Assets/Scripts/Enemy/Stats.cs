@@ -46,6 +46,5 @@ public class Stats : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        Debug.Log(health);
     }
 }
