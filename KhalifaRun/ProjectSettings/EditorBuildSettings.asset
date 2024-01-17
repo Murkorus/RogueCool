@@ -8,4 +8,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Mads Test.unity
     guid: 008c59c3b1fb4f94097559a18d6568e3
+  - enabled: 1
+    path: Assets/Scenes/DeathScreen.unity
+    guid: 3b1e185bf43c4e84e899d0a3fc8bec36
+  - enabled: 1
+    path: Assets/Scenes/Tjalfe Test 2.unity
+    guid: 49201019ff557174686a6fb93309901a
   m_configObjects: {}

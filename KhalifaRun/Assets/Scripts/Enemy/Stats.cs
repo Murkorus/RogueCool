@@ -2,6 +2,7 @@ using Pathfinding;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Stats : MonoBehaviour
 {
@@ -59,7 +60,7 @@ public class Stats : MonoBehaviour
     {
         if(health <= 0)
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene("DeathScreen");
         }
     }
 }
