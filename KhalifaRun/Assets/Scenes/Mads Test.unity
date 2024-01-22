@@ -574,6 +574,8 @@ MonoBehaviour:
   speed: 3
   knockback: 0
   attackSpeed: 1
+  ranged: 0
+  range: 0
 --- !u!61 &562197776
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1291,9 +1293,14 @@ MonoBehaviour:
   speed: 250
   rb: {fileID: 8310042040708270902}
   anim: {fileID: 8955505881032925095}
+  movedirection: {x: 0, y: 0, z: 0}
+  mouseposdirection: {x: 0, y: 0, z: 0}
   hands: {fileID: 6855819901073729488}
-  test1: 0
-  test2: {x: 0, y: 0, z: 0}
+  dashSpeed: 5
+  dashDuration: 0.25
+  dashCooldown: 1
+  isDashing: 0
+  canDash: 1
 --- !u!222 &121079364146378214
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2412,7 +2419,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bb9473cd34a234e8f012bafe35b19c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
   health: 6
   heartContainers:
   - {fileID: 7522075095763678074}
@@ -2421,6 +2427,7 @@ MonoBehaviour:
   - {fileID: 807867376518085210}
   - {fileID: 728823811761715973}
   - {fileID: 2160898884822636108}
+  cam: {fileID: 0}
 --- !u!1 &5618444889672634960
 GameObject:
   m_ObjectHideFlags: 0
@@ -2542,12 +2549,12 @@ GameObject:
   m_Component:
   - component: {fileID: 4816061187214378041}
   - component: {fileID: 2000909530241373959}
-  - component: {fileID: 10788704149165684}
   - component: {fileID: 8310042040708270902}
+  - component: {fileID: 10788704149165684}
   - component: {fileID: 3550040788017707810}
+  - component: {fileID: 8955505881032925096}
   - component: {fileID: 7122732681454750133}
   - component: {fileID: 8955505881032925095}
-  - component: {fileID: 8955505881032925096}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -3246,7 +3253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5bb9473cd34a234e8f012bafe35b19c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 11400000, guid: 6fb5c66542612e1469eb75b9cb910cd3, type: 2}
   health: 6
   heartContainers:
   - {fileID: 7934495205458650181}
@@ -3255,6 +3261,7 @@ MonoBehaviour:
   - {fileID: 1670116506858493646}
   - {fileID: 4728890252463207045}
   - {fileID: 4121537600337490310}
+  cam: {fileID: 0}
 --- !u!224 &9040483701758365756
 RectTransform:
   m_ObjectHideFlags: 0
