@@ -81,6 +81,7 @@ public class Attacking : MonoBehaviour
         transform.position += (destinationSetter.target.transform.position - transform.position).normalized * 0.5f; // Push the enemy slightly in the direction it's facing (Towards the player)
         //
         Instantiate(rangedAttackBullet,transform.position,transform.rotation,transform);
+        // For some reason, the script on the bullet is disabled when instantiated
         //
         yield return new WaitForSeconds(0.15f);
         transform.position -= (destinationSetter.target.transform.position - transform.position).normalized * 0.5f;
