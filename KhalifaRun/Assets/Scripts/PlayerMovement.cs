@@ -46,7 +46,11 @@ public class PlayerMovement : MonoBehaviour
         {
             StartCoroutine(dash());
         }
-        rb.velocity = Movement * (speed * Time.deltaTime);
+        if (isDashing)
+        {
+            return;
+        }
+        rb.velocity = Movement * (speed);
         Movement = new Vector2(horizontal, vertical);
 
         movedirection = new Vector2(horizontal, vertical).normalized;
@@ -55,10 +59,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isDashing)
-        {
-            return;
-        }
+        
         Move();
         animate();
     }

@@ -559,7 +559,7 @@ MonoBehaviour:
   movedirection: {x: 0, y: 0, z: 0}
   mouseposdirection: {x: 0, y: 0, z: 0}
   hands: {fileID: 7118689673870618560}
-  dashSpeed: 5
+  dashSpeed: 25
   dashDuration: 0.25
   dashCooldown: 1
   isDashing: 0
