@@ -39,7 +39,7 @@ public class PlayerMovement : MonoBehaviour
             return;
         }
 
-        rb.velocity = Movement * (speed * Time.deltaTime);
+        rb.velocity = Movement * (speed);
         Movement = new Vector2(horizontal, vertical);
         
     }

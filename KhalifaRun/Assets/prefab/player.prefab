@@ -187,7 +187,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8258cdb764bbfd438601d65e5f02f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 250
+  speed: 7
   rb: {fileID: 4536867392500299883}
   anim: {fileID: 3597631494745582842}
   hands: {fileID: 1333558132592301197}
@@ -232,16 +232,23 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8f1212cbee007204f81f954283273518, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  arms: {fileID: 3465009014393003748}
-  weponHolder: {fileID: 26381913740091661}
-  weapon: {fileID: 0}
-  Weapons: []
-  cam: {fileID: 0}
   pickupDistance: 1
+  arms: {fileID: 3465009014393003748}
+  handsHolder: {fileID: 0}
+  cam: {fileID: 0}
+  DamageBox: {fileID: 0}
   _gotWeapon: 0
+  attacking: 0
+  Swapping_weapons: 0
+  close_Weapons: []
+  weponHolder: {fileID: 26381913740091661}
+  currentWeapon: {fileID: 0}
   attackSpeed: 0
   windup: 0
-  force: 0
+  weight: 0
+  inventory: []
+  MaxweaponSlots: 0
+  ItemDrop: {fileID: 0}
 --- !u!61 &3421614544712104680
 BoxCollider2D:
   m_ObjectHideFlags: 0
