@@ -73,7 +73,6 @@ public class PlayerMovement : MonoBehaviour
     private IEnumerator dash()
     {
         isDashing = true;
-        
         rb.velocity = new Vector2(movedirection.x * dashSpeed, movedirection.y * dashSpeed);
         yield return new WaitForSeconds(dashDuration);
         

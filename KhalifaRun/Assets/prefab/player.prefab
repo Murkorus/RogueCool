@@ -344,7 +344,7 @@ GameObject:
   - component: {fileID: 9022013769627308201}
   - component: {fileID: 8326854446102605549}
   m_Layer: 0
-  m_Name: Mainplayer
+  m_Name: player
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f8258cdb764bbfd438601d65e5f02f2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 250
+  speed: 7
   rb: {fileID: 8862018571155530170}
   anim: {fileID: 8326854446102605549}
   movedirection: {x: 0, y: 0, z: 0}
