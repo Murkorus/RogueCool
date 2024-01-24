@@ -14,7 +14,7 @@ public class RollerAnimationer : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Debug.Log(Vector3.Distance(player.transform.position, gameObject.transform.position));
+        //Debug.Log(Vector3.Distance(player.transform.position, gameObject.transform.position));
     }
 
     // Update is called once per frame

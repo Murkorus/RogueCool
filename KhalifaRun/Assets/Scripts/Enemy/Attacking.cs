@@ -65,6 +65,8 @@ public class Attacking : MonoBehaviour
     public IEnumerator MeleeAttack()
     {
         pathfindingScript.enabled = false; // Disable pathfinding script
+        gameObject.GetComponent<AudioSource>().pitch = Random.Range(1, 1.2f);
+        gameObject.GetComponent<AudioSource>().Play();
         transform.position += (destinationSetter.target.transform.position - transform.position).normalized * 0.5f; // Push the enemy slightly in the direction it's facing (Towards the player)
         targetStats.health -= stats.damage; // Deal damage
         destinationSetter.target.GetComponent<Rigidbody2D>().AddForce((destinationSetter.target.transform.position - transform.position).normalized * stats.knockback * 1000); // Knockback
@@ -80,7 +82,10 @@ public class Attacking : MonoBehaviour
         pathfindingScript.enabled = false; // Disable pathfinding script
         transform.position += (destinationSetter.target.transform.position - transform.position).normalized * 0.5f; // Push the enemy slightly in the direction it's facing (Towards the player)
         //
-        Instantiate(rangedAttackBullet,transform.position,transform.rotation,transform);
+        gameObject.GetComponent<AudioSource>().pitch = Random.Range(1.15f, 1.6f);
+        gameObject.GetComponent<AudioSource>().Play();
+        GameObject instantiatedBullet = Instantiate(rangedAttackBullet,transform.position,transform.rotation,transform);
+        instantiatedBullet.GetComponent<Bullet>().enabled = true;
         // For some reason, the script on the bullet is disabled when instantiated
         //
         yield return new WaitForSeconds(0.15f);
