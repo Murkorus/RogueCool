@@ -199,7 +199,8 @@ public class WeaponManager : MonoBehaviour
            GameObject Instatiatetdrop = Instantiate(ItemDrop, transform.position,quaternion.identity);
            
            Instatiatetdrop.GetComponent<Item_Weapon>().Weapon = currentWeapon;
-           
+           Instatiatetdrop.GetComponent<SpriteRenderer>().sortingOrder = 1;
+
            inventory.Remove(currentWeapon);
            
            currentWeapon = inventory[0];
