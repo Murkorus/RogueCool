@@ -12,18 +12,7 @@ public class HealthScript : MonoBehaviour
     public GameObject cam;
     private void Update()
     {
-        if (Input.GetKeyUp(KeyCode.K))
-        {
-            TakingDamage(1);
-        }
-        if (Input.GetKeyUp(KeyCode.H))
-        {
-            GainHearts(1);
-        }
-        if (health <= 0)
-        {
-            Destroy(gameObject);
-        }
+   
     }
 
     public void TakingDamage(int Damage)

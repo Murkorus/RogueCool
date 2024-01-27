@@ -16,10 +16,10 @@ MonoBehaviour:
   weaponName: Computer
   Special: {fileID: 11400000, guid: 099580a0269899e46bf9b430c79f00ba, type: 2}
   size: {x: 0.3, y: 0.3, z: 0.3}
-  damage: 1
+  damage: 5
   Melee_Sprite: {fileID: 1564727185, guid: cad996daad2e87549a4489e539227423, type: 3}
-  attackSpeed: 3
-  windup: 2
+  attackSpeed: 8
+  windup: 1
   Weight: 4
   ShootSpeed: 0
   Ammo: 0

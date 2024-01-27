@@ -16,7 +16,7 @@ MonoBehaviour:
   weaponName: Ruler
   Special: {fileID: 11400000, guid: c94457b715c46c94e9ca6f0a3b5d949f, type: 2}
   size: {x: 0.5, y: 0.5, z: 0.5}
-  damage: 1
+  damage: 5
   Melee_Sprite: {fileID: 926329494, guid: 1748f39a035ed5f4aa516c6cf66c2f10, type: 3}
   attackSpeed: 2
   windup: 1
