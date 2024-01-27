@@ -19,6 +19,8 @@ public class Bullet : MonoBehaviour
         target = GetComponentInParent<AIDestinationSetter>().target;
         damage = GetComponentInParent<Stats>().damage;
         stopAtPoint = target.position;
+
+        StartCoroutine(DestoryBullet());
     }
 
     private void Update()
@@ -38,5 +40,12 @@ public class Bullet : MonoBehaviour
             col.gameObject.GetComponent<Stats>().health -= damage;
             Destroy(gameObject);
         }
+    }
+
+
+    IEnumerator DestoryBullet()
+    {
+        yield return new WaitForSeconds(3f) ;
+        Destroy(gameObject);
     }
 }

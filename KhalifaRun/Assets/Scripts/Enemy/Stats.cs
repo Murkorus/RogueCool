@@ -26,7 +26,7 @@ public class Stats : MonoBehaviour
         {
             if (gameObject.tag == "Player")
             {
-                maxHealth = 100;
+                maxHealth = 6;
                 health = maxHealth;
                 damage = 8;
             }
@@ -36,7 +36,7 @@ public class Stats : MonoBehaviour
                 {
                     maxHealth = 60;
                     health = maxHealth;
-                    damage = 5;
+                    damage = 1;
                     pathfindingScript.maxSpeed = 4;
                     knockback = 0.3f;
                     attackSpeed = 1;
@@ -45,9 +45,9 @@ public class Stats : MonoBehaviour
                 }
                 if (gameObject.name.Contains("Roller"))
                 {
-                    maxHealth = 40;
+                    maxHealth = 10;
                     health = maxHealth;
-                    damage = 4;
+                    damage = 1;
                     pathfindingScript.maxSpeed = 5;
                     knockback = 0.9f;
                     attackSpeed = 1.3f;
@@ -56,9 +56,9 @@ public class Stats : MonoBehaviour
                 }
                 if (gameObject.name.Contains("Spitter"))
                 {
-                    maxHealth = 28;
+                    maxHealth = 8;
                     health = maxHealth;
-                    damage = 11;
+                    damage = 1;
                     pathfindingScript.maxSpeed = 3;
                     knockback = 0.4f;
                     attackSpeed = 1.1f;
@@ -75,9 +75,14 @@ public class Stats : MonoBehaviour
 
     private void Update()
     {
-        if(health <= 0)
+        if(health <= 0 && gameObject.tag == "Player")
         {
             SceneManager.LoadScene("DeathScreen");
+        }
+
+        if(health <= 0 && gameObject.tag !="Player")
+        {
+            Destroy(gameObject);
         }
     }
 }
