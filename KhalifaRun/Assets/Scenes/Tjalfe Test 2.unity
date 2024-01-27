@@ -5897,6 +5897,10 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1596464174338661140, guid: 97201629c2f97d04789fb84e6b640a7f, type: 3}
       propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2142783261702102961, guid: 97201629c2f97d04789fb84e6b640a7f, type: 3}
+      propertyPath: enableRotation
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3687174394564319470, guid: 97201629c2f97d04789fb84e6b640a7f, type: 3}
