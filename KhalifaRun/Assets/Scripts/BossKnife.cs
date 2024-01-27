@@ -36,8 +36,9 @@ public class BossKnife : MonoBehaviour
        {
            if (other.CompareTag("Player"))
            {
+               other.GetComponent<Stats>().health =- damage;
                other.GetComponent<HealthScript>().TakingDamage(damage);
-               Destroy(gameObject);
+            Destroy(gameObject);
            }
        }
 }

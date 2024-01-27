@@ -11,6 +11,7 @@ public class Attacking : MonoBehaviour
     private AIDestinationSetter destinationSetter;
     private Stats stats;
     private Stats targetStats;
+    private HealthScript healthScript;
     private Rigidbody2D body;
     public GameObject rangedAttackBullet;
     // Start is called before the first frame update
@@ -20,6 +21,8 @@ public class Attacking : MonoBehaviour
         stats = GetComponent<Stats>();
         destinationSetter = GetComponent<AIDestinationSetter>();
         targetStats = destinationSetter.target.GetComponent<Stats>();
+        healthScript = destinationSetter.target.GetComponent<HealthScript>();
+
         body = GetComponent<Rigidbody2D>();
     }
     /*
@@ -69,6 +72,7 @@ public class Attacking : MonoBehaviour
         gameObject.GetComponent<AudioSource>().Play();
         transform.position += (destinationSetter.target.transform.position - transform.position).normalized * 0.5f; // Push the enemy slightly in the direction it's facing (Towards the player)
         targetStats.health -= stats.damage; // Deal damage
+        healthScript.TakingDamage(1);
         destinationSetter.target.GetComponent<Rigidbody2D>().AddForce((destinationSetter.target.transform.position - transform.position).normalized * stats.knockback * 1000); // Knockback
         yield return new WaitForSeconds(0.15f);
         transform.position -= (destinationSetter.target.transform.position - transform.position).normalized * 0.5f;

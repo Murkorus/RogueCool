@@ -16,10 +16,10 @@ MonoBehaviour:
   weaponName: Umbrella
   Special: {fileID: 11400000, guid: b5c3c665dfdb73849b1d67f0a9428d0e, type: 2}
   size: {x: 1, y: 1, z: 1}
-  damage: 1
+  damage: 4
   Melee_Sprite: {fileID: -1500468649, guid: 967e5402df489324cbc66e3acb6e7b7e, type: 3}
   attackSpeed: 3
-  windup: 2
+  windup: 1
   Weight: 6
   ShootSpeed: 0
   Ammo: 0

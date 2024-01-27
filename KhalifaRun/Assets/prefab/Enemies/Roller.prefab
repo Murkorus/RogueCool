@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5192925242112227189}
   - component: {fileID: 6397526575995094192}
   - component: {fileID: 3810007002447789407}
+  - component: {fileID: 8086028699697406394}
   - component: {fileID: 2906620462618347735}
   - component: {fileID: 7044498652048261905}
   - component: {fileID: 8925129310997723982}
@@ -122,6 +123,18 @@ MonoBehaviour:
   tagPenalties: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   graphMask:
     value: -1
+--- !u!114 &8086028699697406394
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8653168233279958912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f44f3294b7bb2ca4ba38b389de78c44b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &2906620462618347735
 MonoBehaviour:
   m_ObjectHideFlags: 0

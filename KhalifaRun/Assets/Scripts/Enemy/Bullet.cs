@@ -38,6 +38,7 @@ public class Bullet : MonoBehaviour
             gameObject.GetComponent<AudioSource>().pitch = UnityEngine.Random.Range(1.05f, 1.25f);
             gameObject.GetComponent<AudioSource>().Play();
             col.gameObject.GetComponent<Stats>().health -= damage;
+            col.gameObject.GetComponent<HealthScript>().TakingDamage(1);
             Destroy(gameObject);
         }
     }
